@@ -122,4 +122,44 @@ ACF_DefineEngine( "13.0-V12", {
 	peakminrpm = 2500,
 	peakmaxrpm = 4000,
 	limitrpm = 4250
+} )	
+
+-- Modern Tank Engines
+
+-- Diesel
+
+ACF_DefineEngine( "38.8-V12", {
+	name = "38.8L V-2-34",
+	desc = "The big and powerful Russian engine that powers the well-known T-34",
+	model = "models/engines/v12l.mdl",
+	sound = "acf_extra/vehiclefx/engines/gnomefather/gaa.wav",
+	category = "V12",
+	fuel = "Diesel",
+	enginetype = "GenericDiesel",
+	requiresfuel = true,
+	weight = 1020,
+	torque = 1527,
+	flywheelmass = 5,
+	idlerpm = 600,
+	peakminrpm = 800,
+	peakmaxrpm = 2000,
+	limitrpm = 3000
+} )
+
+ACF_DefineEngine( "38.8-V12", {
+	name = "38.8L V-55",
+	desc = "The older brother of the T-34's engine, this is the engine from the most manufactured tank in the world. The T-55",
+	model = "models/engines/v12l.mdl",
+	sound = "acf_extra/vehiclefx/engines/gnomefather/gaa.wav",
+	category = "V12",
+	fuel = "Diesel",
+	enginetype = "GenericDiesel",
+	requiresfuel = true,
+	weight = 1020,
+	torque = 1800,
+	flywheelmass = 5,
+	idlerpm = 600,
+	peakminrpm = 1000,
+	peakmaxrpm = 2000,
+	limitrpm = 3000
 } )
