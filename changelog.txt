@@ -157,3 +157,25 @@ r500
 *r575
 -Fixed issue with tracers appearing to start behind weapon
 -Possible fix for FL HE-effect bug
+
+*r577
+-Filtered out certain map entities from ACF ballistics
+-Fixed issue with how ACF handles clips on some props
+-Added periodically forced mass updates to ammo and fuel
+-Added e2 function acfEffectiveArmor(Armor, Angle) which returns the effective armor of a given nominal armor and angle
+-Added e2 function ranger:acfEffectiveArmor() which returns the effective armor from a trace hitting an entity
+
+*r579
+-Forgot a thing last update (fixed e2 clip checks)
+
+*r584
+-Included two community fixes, dealing with bullet-related errors and undo-queue trouble.  Thanks to vMajx and thegrb93 for their help.
+
+*r588
+-Included new acfGetTorqueWithFuel and acfGetPowerWthFuel e2 functions, thanks to haaax2000 for the help.
+
+*r592
+-Fixed entity:acfFuelUse() and increased ACF menu browser panel size.  Thanks again to haaax2000.
+
+*r597
+-Fixed battlepod + pilot seat animations.  Thanks to shadow7483147 for the help.
